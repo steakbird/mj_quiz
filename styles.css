@@ -1,0 +1,79 @@
+
+
+#topText{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.text{
+    text-align: left;
+    font-style: oblique;
+    padding:inherit;
+}
+
+.picture{
+    image-resolution: snap;
+    align-self: center;
+    max-height: 25%;
+    max-width:25%;
+    padding: 10px;
+}
+
+#centerPic{
+
+    max-height:10%;
+}
+
+#questionNum{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.container{
+shape-margin: 30px;
+    border-spacing: inherit;
+    align-self: center;
+    shape-margin: 70px;
+align-items: flex-start;
+    border-style:outset;
+    border-radius: 100px;
+    padding: 20px 20px 40px;
+}
+#greeter{
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-emphasis-color: red;
+}
+.divider{
+    color:blue;
+    outline:inherit;
+    background-color: powderblue;
+    width: auto;
+    height: 3px;
+}
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+  background-color: #778897;
+  width: 250px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #1d3c6a;
+  border-radius: 50px;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+  cursor: pointer;
+  background-color: #57636e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+  outline: 0;
+}
